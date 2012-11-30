@@ -53,7 +53,7 @@ contain.
     > plus a given amount of time in seconds (e.g. 3600 seconds)
 
   + t param:
-    > UNIX timestamp plus given amount of timeused to generate param 's'
+    > UNIX timestamp plus given amount of time used to generate param 's'
 
 At the validating end, a new hash is created with the timestamp provided in the
 't' param and the pre-shared secret. The resulting hash is compared with the
