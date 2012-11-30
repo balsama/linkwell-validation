@@ -45,7 +45,7 @@ generating party (You) and Validating party (Linkwell).
 
 **Example Return:**   http://example.com/example/path?s=e3c45709cf64a7fc36ca56aa93d72583&t=1354307684
 
-###What Happens on the Other END?###
+###What Happens On The Other End?###
 It's important to understand what the URL params included in the generated URL
 contain.
   + s param:
