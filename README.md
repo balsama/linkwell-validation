@@ -38,8 +38,9 @@ Parameters:
     + http://savings.healthycoupons.com/emblemhealth
     + http://savings.healthycoupons.com/emblemhealth/recipes
 
-Return value:     A URL to be used as a link valid for the duration
-                  specified
+Return value:     
+> A URL to be used as a link valid for the duration
+> specified
 
 
 Example Return:   http://example.com/example/path?s=e3c45709cf64a7fc36ca56aa93d72583&t=1354307684
@@ -48,11 +49,11 @@ Example Return:   http://example.com/example/path?s=e3c45709cf64a7fc36ca56aa93d7
 It's important to understand what the URL params included in the generated URL
 contain.
   + s param:
-             > MD5 hash of the pre-shared secret and the current UNIX timestamp
-             > plus a given amount of time in seconds (e.g. 3600 seconds)
+    > MD5 hash of the pre-shared secret and the current UNIX timestamp
+    > plus a given amount of time in seconds (e.g. 3600 seconds)
 
   + t param:
-             > UNIX timestamp plus given amount of timeused to generate param 's'
+    > UNIX timestamp plus given amount of timeused to generate param 's'
 
 At the validating end, a new pash is created with the timestamp provided in the
 't' param and the pre-shared secret. The resulting hash is compared with the
