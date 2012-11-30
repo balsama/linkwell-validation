@@ -55,7 +55,7 @@ contain.
   + t param:
     > UNIX timestamp plus given amount of timeused to generate param 's'
 
-At the validating end, a new pash is created with the timestamp provided in the
+At the validating end, a new hash is created with the timestamp provided in the
 't' param and the pre-shared secret. The resulting hash is compared with the
 hash provided in the 's' param. If the two hashes do NOT match, the
 validation fails immediately. If the hashes do match we compare the validating
