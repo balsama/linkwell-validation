@@ -31,8 +31,9 @@ Parameters:
                   
   + url:           The URL of your Linkwell property including the path if
                    applicable. E.g.:
-                     - http://savings.healthycoupons.com/emblemhealth
-                     - http://savings.healthycoupons.com/emblemhealth/recipes
+                     
+    + http://savings.healthycoupons.com/emblemhealth
+    + http://savings.healthycoupons.com/emblemhealth/recipes
 
 Return value:     A URL to be used as a link valid for the duration
                   specified
