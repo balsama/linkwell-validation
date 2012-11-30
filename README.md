@@ -18,7 +18,7 @@ Generates a valid link to a protected Linkwell website.
 Use of this function requires a pre-shared secrent known by the generating
 generating party (You) and Validating party (Linkwell).
 
-*Parameters:*
+**Parameters:**
   + shared_secret: 
     > the pre-shared key. If you are unsure of what your
     > pre-shared key is, contact your Linkwell representative
@@ -38,12 +38,12 @@ generating party (You) and Validating party (Linkwell).
     + http://savings.healthycoupons.com/emblemhealth
     + http://savings.healthycoupons.com/emblemhealth/recipes
 
-*Return value:*
+**Return value:**
 > A URL to be used as a link valid for the duration
 > specified
 
 
-*Example Return:*   http://example.com/example/path?s=e3c45709cf64a7fc36ca56aa93d72583&t=1354307684
+**Example Return:**   http://example.com/example/path?s=e3c45709cf64a7fc36ca56aa93d72583&t=1354307684
 
 ###What Happens on the Other END?###
 It's important to understand what the URL params included in the generated URL
